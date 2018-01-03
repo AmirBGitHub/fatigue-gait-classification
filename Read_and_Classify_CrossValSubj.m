@@ -29,7 +29,7 @@ for sbjct = 1:20
     clear imu_data
     % Read Data 
 
-    imu_read = importdata([pwd, '\Testdata_', char(sbjct), '.xlsx']);
+    imu_read = importdata([pwd, '\Testdata_(', char(sbjct), ').xlsx']);
     imu_data = imu_read.data.Ankle;
 %     imu_data = imu_read.data;
 
