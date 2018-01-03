@@ -15,7 +15,6 @@ Feature = {'Position x, Position y';                % #1
 
 
 MotionComponent = {'Position x (m)', 'Position y (m)', 'time(s)', 'Velocity Magnitude (m/s)', 'time(s)', 'Acceleration Magnitude (m/s)', 'time(s)', 'Jerk Magnitude (m/s)', 'Filtered Angle x (degree)', 'Filtered Angle y (degree)', 'Filtered Angle x (degree)', 'Unbiased Gyro x (degree/s)', 'Filtered Angle y (degree)', 'Unbiased Gyro y (degree/s)', 'Filtered Angle z (degree)', 'Unbiased Gyro z (degree/s)'};
-Subject = {'Bryan', 'Thomas', 'Hamid', 'Kayla', 'Sevack', 'Jim', 'Tarun', 'Anastasia', 'Shivam', 'Brian', 'Angela', 'Darya', 'Dave', 'Dorisha', 'Gary', 'Greg', 'Larry R', 'Larry D', 'Marcus', 'Alycia'};
 
 % load ScoreStepTimeCrossValSubj20.mat
 % load TrueLabelCrossValSubj20.mat
@@ -30,7 +29,7 @@ for sbjct = 1:20
     clear imu_data
     % Read Data 
 
-    imu_read = importdata([pwd, '\Testdata_', char(Subject(m)), '.xlsx']);
+    imu_read = importdata([pwd, '\Testdata_', char(sbjct), '.xlsx']);
     imu_data = imu_read.data.Ankle;
 %     imu_data = imu_read.data;
 
