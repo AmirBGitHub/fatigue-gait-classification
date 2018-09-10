@@ -1,5 +1,9 @@
 # fatigue-gait-classification
 
+# Guideline
+
+download the package and run Read_and_Classify_CrossValSubj.m file.
+
 This repository contains the data and code for reproducing the results from:
 
 Amir Baghdadi, Fadel M. Megahed, Ehsan T. Esfahani & Lora A. Cavuoto (2018) A machine learning approach to detect changes in gait parameters following a fatiguing occupational task, Ergonomics, 61:8, 1116-1129, DOI: 10.1080/00140139.2018.1442936
