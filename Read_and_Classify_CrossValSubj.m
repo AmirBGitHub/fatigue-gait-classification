@@ -19,7 +19,7 @@ MotionComponent = {'Position x (m)', 'Position y (m)', 'time(s)', 'Velocity Magn
 % load ScoreStepTimeCrossValSubj20.mat
 % load TrueLabelCrossValSubj20.mat
 
-for sbjct = 1:1
+for sbjct = 1:20
     
     %% Data Read, Process and Save 
     
@@ -184,15 +184,15 @@ for sbjct = 1:1
         end
     end
                        
-    AccuracyFolds(m,:) = mean(Accuracy); 
-    SensitivityFolds(m,:) = mean(Sensitivity); 
-    SpecificityFolds(m,:) = mean(Specificity);
+    AccuracyFolds(m,:) = mean(Accuracy)
+    SensitivityFolds(m,:) = mean(Sensitivity) 
+    SpecificityFolds(m,:) = mean(Specificity)
    
 end
 
-AccuracyTotal = mean(AccuracyFolds); 
-SensitivityTotal = mean(SensitivityFolds); 
-SpecificityTotal = mean(SpecificityFolds);
+AccuracyTotal = mean(AccuracyFolds)
+SensitivityTotal = mean(SensitivityFolds) 
+SpecificityTotal = mean(SpecificityFolds)
 
     
     
