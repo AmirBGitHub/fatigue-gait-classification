@@ -2,7 +2,7 @@
 
 # Guideline
 
-download the package and run Read_and_Classify_CrossValSubj.m file.
+Download the package and run Read_and_Classify_CrossValSubj.m file.
 
 This repository contains the data and code for reproducing the results from:
 
